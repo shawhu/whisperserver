@@ -21,3 +21,9 @@ run it with the following command in windows
     start.bat
 
 you can also run this in linux, and it's the same
+
+    flask run --host=0.0.0.0 --port=5500
+    
+    
+warning, this is only for the purpose of testing, if you need to run this in a production environment, you should
+publish flask. the current state is extremely easy to be hacked. check this https://flask.palletsprojects.com/en/2.3.x/deploying/
