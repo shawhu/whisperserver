@@ -47,5 +47,5 @@ def do_the_transcribe(f, model, language):
             "task": "transcribe",  # translate or "transcribe"
         }
     result = whisper.transcribe(mainmodel, audio, **options)
-    print(result)
-    return result
+    print(result["text"])
+    return {"text": result["text"]}
