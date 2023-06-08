@@ -26,5 +26,4 @@ you can also run this in linux, and it's the same
     
     
 ### warning
-this is only for the purpose of testing, if you need to run this in a production environment, you should
-publish flask. the current state is extremely easy to be hacked. check this https://flask.palletsprojects.com/en/2.3.x/deploying/
+this is only for the purpose of testing, if you need to run this in a production environment, you should put this behind a proper http server like nginx and create a reverse-proxy. it's extremely easy to be hacked if you put this on a public ip. check this https://flask.palletsprojects.com/en/2.3.x/deploying/
